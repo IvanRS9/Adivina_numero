@@ -169,10 +169,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   _resetGame();
                 },
-                style: const ButtonStyle(
-                  backgroundColor:
-                      WidgetStatePropertyAll(Color.fromRGBO(75, 104, 169, 1)),
-                ),
               ),
             ],
           ),
