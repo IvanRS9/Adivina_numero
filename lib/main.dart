@@ -70,6 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
       if (intentos == 0 && newNumber != numeroAleatorio) {
         _showDialog("Perdiste, suerte para la proxima", Colors.red, "Cerrar");
+        Text("El numero era: $numeroAleatorio");
       }
     });
   }
